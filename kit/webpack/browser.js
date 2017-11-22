@@ -63,6 +63,7 @@ export default new WebpackConfig().extend('[root]/base.js').merge({
                   // so we'll do that with a dedicated plugin
                   exclude: ['transform-regenerator'],
                 }],
+                "node6",
                 // Transpile JSX code
                 'react',
               ],
